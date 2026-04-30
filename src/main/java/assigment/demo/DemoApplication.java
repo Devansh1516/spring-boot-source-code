@@ -12,7 +12,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 	            "controller",
 	            "service",
 	            "repo",
-	            "entity"
+	            "entity",
+	            "config"
 	        })
 @EnableJpaRepositories(basePackages = "repo")
 @EntityScan(basePackages = "entity")
